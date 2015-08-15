@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_grid_single"
+    android:layout_width="100px"
+    android:background="#000000"
+    android:layout_margin="20px"
+    android:layout_height="100px">
+
+    <ImageView
+        android:id="@+id/image_grid_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_grid_single"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+</LinearLayout>
